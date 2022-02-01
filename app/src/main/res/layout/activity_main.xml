@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@color/dark_blue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/norwester"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textColor="@color/light_yellow"
+                android:layout_marginBottom="15dp"
+                android:text="SMART POOL"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/glacialindifference"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="Kontrol kolam melalui ponsel cerdas"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_white">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T O M B O L"
+                android:fontFamily="@font/norwester"
+                android:textColor="@color/dark_blue"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I N D I K A T O R"
+                android:fontFamily="@font/norwester"
+                android:textSize="30dp"
+                android:textColor="@color/dark_blue"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_lightgreyfull"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/show_profile"
+                android:layout_centerHorizontal="true"
+                android:columnCount="2"
+                android:rowCount="2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_rowWeight="1"
+                        android:layout_column="0"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/rounder_corner_lightyellow"
+                        android:elevation="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <LinearLayout
+                            android:layout_width="110dp"
+                            android:layout_height="135dp"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:background="@drawable/rounder_corner_lightyellow"
+                            android:elevation="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:id="@+id/layout_lampu"
+                            android:padding="8dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/on"
+                                android:id="@+id/lampu"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/norwester"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:text="L A M P U"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_rowWeight="1"
+                        android:layout_column="1"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/rounder_corner_lightyellow"
+                        android:layout_gravity="fill"
+                        android:layout_margin="8dp"
+                        android:elevation="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <LinearLayout
+                            android:layout_width="110dp"
+                            android:layout_height="135dp"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:background="@drawable/rounder_corner_lightyellow"
+                            android:elevation="20dp"
+                            android:gravity="center"
+                            android:id="@+id/layout_pompa"
+                            android:padding="8dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/pompa_off"
+                                android:id="@+id/pompa"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/norwester"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:text="P O M P A"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_rowWeight="1"
+                        android:layout_column="0"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill"
+                        android:layout_margin="8dp"
+                        android:elevation="8dp"
+                        android:onClick="add_fitur"
+                        app:cardCornerRadius="20dp">
+
+                        <LinearLayout
+                            android:layout_width="110dp"
+                            android:layout_height="135dp"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:background="@color/light_grey"
+                            android:elevation="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/plus"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/norwester"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:text="ADD"/>
+                </LinearLayout>
+            </GridLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

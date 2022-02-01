@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/bggeadient.xml" value="0.12604166666666666" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/menu_smartpool.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounded_corner.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounded_cream.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounded_darkorange.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounded_gold.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounded_lightgrey.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounded_lightgreyfull.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounded_white.xml" value="0.373046875" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounder_corner_lightyellow.xml" value="0.24947916666666667" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/drawable/rounderd_grey_full.xml" value="0.240625" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/activity_hidroponik.xml" value="0.16802536231884058" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/activity_pju.xml" value="0.16802536231884058" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/activity_water_heater.xml" value="0.17407407407407408" />
+        <entry key="..\:/College/kuliah/semester 8/smartpool/app/src/main/res/layout/bggradient.xml" value="0.21041666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
